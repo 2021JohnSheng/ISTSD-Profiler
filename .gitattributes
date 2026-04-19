@@ -1,0 +1,1 @@
+example_data/merged_Enterococcus_faecalis_RefSeq_Assembly_Complete_and_Chromosome_sample_50.fasta filter=lfs diff=lfs merge=lfs -text

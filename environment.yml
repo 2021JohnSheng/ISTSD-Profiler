@@ -1,0 +1,18 @@
+name: istsd-profiler
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas=2.2.3
+  - mpi4py=4.0.0
+  - biopython=1.84
+  - rpy2=3.5.11
+  - samtools=1.21
+  - bedtools=2.31.1
+  - seqkit=2.8.2
+  - mpich
+  - r-base=4.3
+  - r-ggplot2=3.5.1
+  - r-ggseqlogo=0.2

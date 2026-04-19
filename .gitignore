@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Runtime indexes and split files
+*.fai
+*.seqkit.fai
+*.split/
+
+# Pipeline outputs
+pickle_data/
+TSD_analysis_results/
+analyze_tsd_length_preference/
+merged_IS_alignment_info.txt
+
+# Common temporary files
+*.log
+*.tmp
+*.temp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
