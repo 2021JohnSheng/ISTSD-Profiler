@@ -139,5 +139,4 @@ after publication.
 
 ## Contact
 
-- Yong Sheng
-- `johnsheng.sjtu@vip.163.com`
+Contact information will be added after peer review.

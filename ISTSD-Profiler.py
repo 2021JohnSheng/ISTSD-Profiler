@@ -16,8 +16,8 @@ Usage:
 """
 
 __version__ = "1.0.0"
-__author__ = "Yong Sheng"
-__email__ = "johnsheng.sjtu@vip.163.com"
+__author__ = "Anonymous"
+__email__ = ""
 __license__ = "MIT"
 
 import pandas as pd
@@ -393,7 +393,5 @@ def analyze_is_elements(IS_file, genome_file, num_files):
         print("[INFO] TSD length preference analysis complete.")
         print("[INFO] Congratulations! The code execution has been completed successfully.")
         print(f"[INFO] End time: {datetime.datetime.now()}")
-        print("[INFO] Software was developed by Yong Sheng from Army Medical University.")
 if __name__ == "__main__": 
     analyze_is_elements(IS_file, genome_file, num_parts)
-    

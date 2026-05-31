@@ -1,13 +1,9 @@
 cff-version: 1.2.0
-message: "If you use ISTSD-Profiler, please cite this software repository. The manuscript citation will be added after publication."
+message: "If you use ISTSD-Profiler, please cite this software repository. Author details and the manuscript citation will be added after peer review."
 title: "ISTSD-Profiler: MPI-enabled profiling of insertion sequence target-site duplications"
 version: 1.0.0
 date-released: 2026-04-19
 type: software
 authors:
-  - family-names: "Sheng"
-    given-names: "Yong"
-    email: "johnsheng.sjtu@vip.163.com"
-repository-code: "https://github.com/2021JohnSheng/ISTSD-Profiler"
-url: "https://github.com/2021JohnSheng/ISTSD-Profiler"
+  - name: "Anonymous authors"
 license: MIT
