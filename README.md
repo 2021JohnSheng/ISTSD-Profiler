@@ -51,6 +51,11 @@ validation.
   *Enterococcus faecalis* genomes downloaded from the NCBI RefSeq database,
   restricted to assemblies annotated as Complete and Chromosome level.
 
+The merged genome FASTA is stored with Git LFS because of its size. If you only
+need the source code, clone with `GIT_LFS_SKIP_SMUDGE=1` or download the release
+source archive. If you want to run the bundled example, install Git LFS and run
+`git lfs pull` after cloning.
+
 ## Usage
 
 ```bash
@@ -118,10 +123,19 @@ intended for version control.
 - `environment.yml` - recommended conda or mamba environment definition
 - `requirements.txt` - minimal Python dependencies
 - `LICENSE` - MIT license
+- `CITATION.cff` - machine-readable citation metadata
+- `CONTRIBUTING.md` - issue and contribution guidelines
+- `SECURITY.md` - security contact and reporting guidance
 
 ## License
 
 This project is released under the MIT License. See `LICENSE` for details.
+
+## Citation
+
+If you use ISTSD-Profiler, please cite this software repository. Citation
+metadata is provided in `CITATION.cff`; the manuscript citation will be added
+after publication.
 
 ## Contact
 
