@@ -30,6 +30,41 @@ conda activate istsd-profiler
 `requirements.txt` is provided as a minimal Python-only reference, while
 `environment.yml` is the recommended installation route.
 
+## Tested environment and runtime
+
+ISTSD-Profiler v1.0.0 was tested using the bundled demo dataset in the
+following environment:
+
+- Operating system: Ubuntu 22.04.5 LTS under Windows Subsystem for Linux 2
+  (WSL2), x86_64
+- Environment manager: mamba/miniforge
+- Python: 3.11.15
+- pandas: 2.2.3
+- mpi4py: 4.0.0
+- Biopython: 1.84
+- rpy2: 3.5.11
+- SAMtools: 1.21
+- BEDTools: 2.31.1
+- SeqKit: 2.8.2
+- R: 4.3.3
+- ggplot2: 3.5.1
+- ggseqlogo: 0.2
+
+No non-standard hardware is required for the bundled demo dataset. Large-scale
+analyses of millions of genome assemblies require MPI-capable computing
+resources appropriate for the dataset size.
+
+Using the commands shown below, environment creation with mamba completed
+successfully in 67.39 seconds in the tested WSL2 environment with an existing
+mamba package cache. Installation time may vary with network speed and package
+cache state.
+
+The bundled demo run completed successfully in 43.66 seconds in the tested WSL2
+environment and produced the expected output directories and files, including
+`TSD_analysis_results/`, `TSD_motifs/`,
+`analyze_tsd_length_preference/tsd_length_preference_data.csv`, `pickle_data/`
+and `merged_IS_alignment_info.txt`.
+
 ## Input
 
 The script requires:
@@ -73,6 +108,9 @@ mpiexec -n 2 python3 ISTSD-Profiler.py \
   -g example_data/merged_Enterococcus_faecalis_RefSeq_Assembly_Complete_and_Chromosome_sample_50.fasta \
   -n 2
 ```
+
+In the tested WSL2 environment described above, this bundled demo completed in
+43.66 seconds using `mpiexec -n 2`.
 
 Arguments:
 
