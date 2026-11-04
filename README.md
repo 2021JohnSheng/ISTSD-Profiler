@@ -165,6 +165,14 @@ intended for version control.
 - `CONTRIBUTING.md` - issue and contribution guidelines
 - `SECURITY.md` - security contact and reporting guidance
 
+## Data availability
+
+Inferred TSD sequences and reconstructed pre-insertion local contexts from the population-scale analysis are available in the [IS pre-insertion loci and TSD sequence datasets v1.0.0 release](https://github.com/2021JohnSheng/ISTSD-Profiler/releases/tag/data-v1.0.0).
+
+This release contains two layers and four FASTA datasets: 693,738 full TSD records, 685,840 full pre-insertion local-context records, 105,222 assembly-dereplicated TSD records and 103,742 assembly-dereplicated local-context records. The dereplicated layer is restricted to records from 80,828 representative genome assemblies. The release includes `Archive_manifest.tsv` with SHA-256 checksums.
+
+See the [dataset README](data/is-preinsertion-loci/README.md) for file conventions, quality control and interpretation boundaries. These records are computational inferences, not independent insertion events or experimentally validated transposition events.
+
 ## License
 
 This project is released under the MIT License. See `LICENSE` for details.
